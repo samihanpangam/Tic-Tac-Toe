@@ -76,7 +76,7 @@ cells.forEach(function (cell, index) {
                 cell.textContent = player2Symbol;
                 board[index] = player2Symbol;
                 console.log(board)
-                turnIndicator.textContent = `${player2Symbol}'s move`;
+                turnIndicator.textContent = `${player1Symbol}'s move`;
                 turn = "player1";
             }
             checkWinner();
