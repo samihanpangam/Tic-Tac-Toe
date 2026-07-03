@@ -1,8 +1,42 @@
 <html>
-    <head>
-        <title>Tic-Tac-Toe</title>
-    </head>
-    <body>
-        <h1>Tic-Tac-Toe</h1>
-    </body>
+
+<head>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="input-area">
+        <input type="text" id="player1" placeholder="Player1 Symbol default: X">
+        <input type="text" id="player2" placeholder="Player2 Symbol default: O">
+        <button id="start">Start Game</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <button id="x1"></button>
+            <button id="x2"></button>
+            <button id="x3"></button>
+        </div>
+        <div class="row">
+            <button id="x4"></button>
+            <button id="x5"></button>
+            <button id="x6"></button>
+        </div>
+        <div class="row">
+            <button id="x7"></button>
+            <button id="x8"></button>
+            <button id="x9"></button>
+        </div>
+    </div>
+    <p>Start the Game</p>
+    <button id="reset">Reset Game</button>
+    <script src="script.js"></script>
+</body>
+
 </html>
