@@ -69,6 +69,7 @@ resetButton.addEventListener('click', function () {
     turnIndicator.textContent = "";
     console.log(board)
     startButton.disabled = false;
+    resetButton.style.visibility = "hidden";
 });
 
 cells.forEach(function (cell, index) {
