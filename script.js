@@ -18,8 +18,8 @@ const startButton = document.getElementById('start');
 let turn = "player1";
 let startGame = false;
 let board = Array(9).fill("");
-let player1Symbol = player1Input.value || 'X';
-let player2Symbol = player2Input.value || 'O';
+let player1Symbol = 'X';
+let player2Symbol = 'O';
 
 function checkWinner() {
     for (let x = 0; x < winningCombinations.length; x++) {
