@@ -44,6 +44,12 @@ function checkWinner() {
 }
 
 startButton.addEventListener('click', function () {
+    if (document.getElementById('player1').value.length>1 || document.getElementById('player2').value.length>1) {
+        alert("please enter a single character");
+        return;
+    };
+    
+    
     player1Symbol = document.getElementById('player1').value || 'X';
     player2Symbol = document.getElementById('player2').value || 'O';
     if (player1Symbol === player2Symbol) {
